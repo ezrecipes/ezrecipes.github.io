@@ -1,13 +1,13 @@
 # Site settings
-title:        "Recipes"
+title:        "ezrecipes"
 description:  "A food blog with easy recipes."
 baseurl:      "/recipes" # the subpath of your site, e.g. /blog/
-url:          "https://liamyang.github.io/recipes/" # the base hostname & protocol for your site
+url:          "https://ezrecipes.github.io/" # the base hostname & protocol for your site
 permalink:    /:year/:title
-github:       "liamyang"
-twitter:      "yourusername"
-email:        "mail@example.com"
-disqus-id:    "example" #leave blank if you dont want comments.
+github:       "ezrecipes"
+twitter:      ""
+email:        ""
+disqus-id:    "ezrecipes" #leave blank if you dont want comments.
 
 # Build settings
 markdown:     kramdown
