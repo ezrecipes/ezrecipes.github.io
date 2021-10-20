@@ -1,7 +1,7 @@
 # Site settings
 title:        "ezrecipes"
 description:  "A food blog with easy recipes."
-baseurl:      "/recipes" # the subpath of your site, e.g. /blog/
+baseurl:      "" # the subpath of your site, e.g. /blog/
 url:          "https://ezrecipes.github.io/" # the base hostname & protocol for your site
 permalink:    /:year/:title
 github:       "ezrecipes"
