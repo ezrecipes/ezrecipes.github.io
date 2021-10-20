@@ -2,6 +2,8 @@
 layout: post
 title:  "Chocolate Brownie"
 date:   2021-10-20
+prep:   15
+cook:   30
 ---
 
 ###### Prep time - 15 minutes
