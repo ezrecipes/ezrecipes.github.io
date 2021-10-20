@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% for post in site.posts limit:4 %}
+{% for post in site.posts limit:3 %}
   <article class="module color3">
     <h2>
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
