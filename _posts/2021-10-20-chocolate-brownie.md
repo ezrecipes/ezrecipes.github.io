@@ -19,8 +19,8 @@ cook:   30
 ## Method
 
 1. Preheat oven to 180°C bake. Line an 18 x 28cm sponge roll tin with baking paper.
-2. Melt Tararua Butter in a saucepan large enough to mix all ingredients in. Mix in cocoa, remove from heat and stir in Chelsea White Sugar.
-3. Add eggs and mix well, then add vanilla essence. Sift in Edmonds Standard Grade Flour and Edmonds Baking Powder and mix to combine. Pour into prepared tin.
+2. Melt Butter in a saucepan large enough to mix all ingredients in. Mix in cocoa, remove from heat and stir in White Sugar.
+3. Add eggs and mix well, then add vanilla essence. Sift in Standard Grade Flour and Baking Powder and mix to combine. Pour into prepared tin.
 4. Bake for 25-30 minutes or until brownie springs back when touched lightly.
 
 ## Tips
