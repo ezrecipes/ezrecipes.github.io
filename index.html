@@ -7,19 +7,17 @@ layout: default
     <h2>
       <a class="red" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
-    <time>{{ post.date }}</time>
     <p>
       {{ post.content | strip_html | truncate: 250 }}
     </p>
   </article>
 {% endfor %}
 
-{% for post in site.posts offset:1 limit:4 %}
+{% for post in site.posts %}
   <article class="module color3">
     <h2>
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
-    <time>{{ post.date }}</time>
 </article>
 {% endfor %}
 
