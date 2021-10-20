@@ -6,9 +6,6 @@ prep:   15
 cook:   30
 ---
 
-###### Prep time - 15 minutes
-###### Cooking time - 30 minutes
----
 ## Ingredients
 
 - 250g Butter
