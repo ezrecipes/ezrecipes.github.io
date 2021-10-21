@@ -8,7 +8,9 @@ permalink: /archives/
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
     {% if forloop.first %}
-    <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+    <article class="module color3">
+        <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+    </article>
     <ul>
     {% endif %}
         <article class="module color3">
@@ -25,7 +27,9 @@ permalink: /archives/
     {% else %}
         {% if this_year != next_year %}
         </ul>
+    <article class="module color3">
         <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+    </article>
         <ul>
         {% endif %}
     {% endif %}
