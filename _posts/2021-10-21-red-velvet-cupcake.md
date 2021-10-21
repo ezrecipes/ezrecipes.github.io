@@ -23,10 +23,10 @@ cook:   18
 
 ### Cream Cheese Frosting
 
-8oz (227g) cream cheese, room temperature
-½ tsp pure vanilla extract
-½ cup (60g) Chelsea Icing Sugar, sifted
-⅔ cup slightly whipped cream
+- 8oz (227g) cream cheese, room temperature
+- ½ tsp pure vanilla extract
+- ½ cup (60g) Chelsea Icing Sugar, sifted
+- ⅔ cup slightly whipped cream
 
 ## Method
 
