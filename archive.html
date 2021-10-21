@@ -11,26 +11,22 @@ permalink: /archives/
     <article class="module color3">
         <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
     </article>
-    <ul>
     {% endif %}
         <article class="module color3">
           <h2>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
           <p>
-        {{ post.prep }} minutes prep time<br>{{ post.cook }} minutes cook time
+            {{ post.prep }} minutes prep time<br>{{ post.cook }} minutes cook time
           </p>
         </article>
 
     {% if forloop.last %}
-    </ul>
     {% else %}
         {% if this_year != next_year %}
-        </ul>
     <article class="module color3">
         <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
     </article>
-        <ul>
         {% endif %}
     {% endif %}
 {% endfor %}
