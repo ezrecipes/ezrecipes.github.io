@@ -11,8 +11,14 @@ permalink: /archives/
     <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
     <ul>
     {% endif %}
-
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        <article class="module color3">
+          <h2>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <p>
+        {{ post.prep }} minutes prep time<br>{{ post.cook }} minutes cook time
+          </p>
+        </article>
 
     {% if forloop.last %}
     </ul>
