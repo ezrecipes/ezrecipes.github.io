@@ -1,4 +1,5 @@
 ---
+layout: default
 title: About
 permalink: /about/
 ---
@@ -16,9 +17,3 @@ Our food range is has a large variety of recipes! From chocolate brownies ~ to s
 Check us out on [TikTok](https://tiktok.com/@ezrecipes.io)
 
 Or leave us an email at [ezrecipes@outlook.com](mailto:ezrecipes@outlook.com)
-
-## Source code
-
-ezrecipes source code is available on GitHub as shown below
-
-[![GitHub](https://github-readme-stats.vercel.app/api/pin/?username=ezrecipes&repo=ezrecipes.github.io)](https://github.com/ezrecipes/ezrecipes.github.io/)
