@@ -8,9 +8,7 @@ permalink: /about/
 
 ezrecipes was formed in October of 2021 in New Zealand during a certain virus outbreak which got most people stuck at home. Including us. So we decided why not make a website that tells you how to make delicious food.
 
-Our website has a large variety of recipes, from chocolate brownies ~ to sunday pancakes ~ to apple crumble.
-
-Our food range is has a large variety of recipes! From chocolate brownies ~ to sunday pancakes, you name it!
+Our food range is has a large variety of recipes! From chocolate brownies, to sunday pancakes, you name it!
 
 ## Social
 
