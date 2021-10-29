@@ -6,16 +6,16 @@ permalink: /about/
 
 <article class="module color3">
 
-## About
+  <h2>About</h2>
 
-ezrecipes was formed in October of 2021 in New Zealand during a certain virus outbreak which got most people stuck at home. Including us. So we decided why not make a website that tells you how to make delicious food.
+<p>ezrecipes was formed in October of 2021 in New Zealand during a certain virus outbreak which got most people stuck at home. Including us. So we decided why not make a website that tells you how to make delicious food.
+<br>
+Our food range is has a large variety of recipes! From chocolate brownies, to sunday pancakes, you name it!</p>
 
-Our food range is has a large variety of recipes! From chocolate brownies, to sunday pancakes, you name it!
+  <h2>Social</h2>
 
-## Social
-
-Check us out on [TikTok](https://tiktok.com/@ezrecipes.io)
-
-Or leave us an email at [ezrecipes@outlook.com](mailto:ezrecipes@outlook.com)
+<p>Check us out on [TikTok](https://tiktok.com/@ezrecipes.io)
+<br>
+  Or leave us an email at [ezrecipes@outlook.com](mailto:ezrecipes@outlook.com)</p>
   
 </article>
