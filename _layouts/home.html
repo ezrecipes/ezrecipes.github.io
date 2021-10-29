@@ -13,6 +13,11 @@ layout: default
         <p>
           {{ post.prep | strip_html }} Prep time &ndash; {{ post.cook | strip_html }} Cook time
         </p>
+        <br>
+        <p>
+          {{ post.content | split: "
+" | join: "&ndash" %}
+        </p>
 
       </div>
     </a>
