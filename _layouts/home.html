@@ -11,7 +11,7 @@ layout: default
         <div class="catalogue-line"></div>
 
         <p>
-          {{ post.prep }} Prep time &ndash; {{ post.cook }} Cook time
+          {{ post.prep | strip_html }} Prep time &ndash; {{ post.cook | strip_html }} Cook time
         </p>
 
       </div>
