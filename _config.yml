@@ -1,15 +1,40 @@
 # Site settings
-title:        "ezrecipes"
-description:  "A food blog with easy recipes."
-baseurl:      "" # the subpath of your site, e.g. /blog/
-url:          "https://ezrecipes.github.io/" # the base hostname & protocol for your site
-permalink:    /:year/:title
-github:       "ezrecipes"
-twitter:      ""
-email:        ""
-disqus-id:    "ezrecipes" #leave blank if you dont want comments.
+title:          ezrecipes
+description:    "A food blog with easy recipes."
+url:            https://ezrecipes.github.io/
+
+# Author
+author:
+  name:         ezrecipes
+  email:        ezrecipes@outlook.com
+  url:          https://ezrecipes.github.io/
 
 # Build settings
-markdown:     kramdown
+markdown:       kramdown
+
+# Assets
 sass:
-    style: :compressed
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jemoji
+
+# Permalinks
+permalink:      /:year/:title
+paginate:       5
+
+# Related posts settings
+related_posts_section:
+  max_count:        5
+  min_common_tags:  2
+
+# Links to social media
+social:
+  email: ezrecipes@outlook.com
+  github: https://github.com/ezrecipes/
+  twitter: 
+  linkedin: 
