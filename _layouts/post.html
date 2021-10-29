@@ -6,7 +6,7 @@ layout: default
   <a href="{{ page.url }}"><h1>{{ page.title }}</h1></a>
   <hr>
   <p>Prep time &ndash; {{ page.prep }} minutes<br>Cook time &ndash; {{ page.cook }} minutes</p>
-  <img src="/assets/images/recipe/{{ page.title | downcase | split: " " | join: "-" }}.png">
+  <img src="/assets/images/recipe/{{ page.title | downcase | split: " " | join: "-" }}.png" onerror="this.onerror=null; this.src='/assets/images/imgerr.png'">
 </article>
 <article class="color3 module">
   {{ content }}
