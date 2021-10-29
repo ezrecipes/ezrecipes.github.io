@@ -14,8 +14,8 @@ Our food range is has a large variety of recipes! From chocolate brownies, to su
 
   <h2>Social</h2>
 
-<p>Check us out on [TikTok](https://tiktok.com/@ezrecipes.io)
+  <p>Check us out on <a href="https://tiktok.com/@ezrecipes.io">TikTok</a>
 <br>
-  Or leave us an email at [ezrecipes@outlook.com](mailto:ezrecipes@outlook.com)</p>
+    Or leave us an email at <a href="mailto:ezrecipes@outlook.com">ezrecipes@outlook.com</a></p>
   
 </article>
