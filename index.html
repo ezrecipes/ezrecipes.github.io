@@ -6,6 +6,7 @@ layout: default
 </div>
 {% for post in site.posts limit:3 %}
   <article class="module color3">
+    <img src="/assets/images/recipe/{{ page.title | downcase | split: " " | join: "-" }}.png" height="150" style="float:right;border-radius:1em;">
     <h2>
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
