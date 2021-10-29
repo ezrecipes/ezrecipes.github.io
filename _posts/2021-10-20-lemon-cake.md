@@ -21,7 +21,7 @@ cook:   20
 ### Topping
 
 - juice of 1 lemon
-- ½	 cup White Sugar (113g)
+- ½ cup White Sugar (113g)
 - 3-4 Tbsp boiling water (to dissolve sugar)
 
 ## Method
