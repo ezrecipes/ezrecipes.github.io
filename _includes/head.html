@@ -6,7 +6,7 @@
     <title>{% if page.title %}{{ page.title }} &ndash; ezrecipes{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link href="//db.onlinewebfonts.com/c/4387b781fdcc752283b72bdc76757065?family=All+Round+Gothic" rel="stylesheet" type="text/css"/>
+    <link rel="preload" href="/assets/fonts/AllRoundGothicW03-Book.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
     <meta name="keywords" content="food, recipes, delicious, yum"/>
