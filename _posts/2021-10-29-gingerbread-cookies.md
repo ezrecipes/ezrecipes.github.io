@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Gingerbread Men"
+title:  "Gingerbread Cookies"
 date:   2021-10-29
 prep:   20
 cook:   10
