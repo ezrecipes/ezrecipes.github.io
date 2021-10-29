@@ -3,22 +3,12 @@
 ---
 @charset "utf-8";
 
-@font-face {
-    font-family: 'AllRoundGothicW03-Book';
-    src: url('/assets/fonts/AllRoundGothicW03-Book.eot');
-    src: url('/assets/fonts/AllRoundGothicW03-Book.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/AllRoundGothicW03-Book.woff2') format('woff2'),
-        url('/assets/fonts/AllRoundGothicW03-Book.woff') format('woff'),
-        url('/assets/fonts/AllRoundGothicW03-Book.svg#AllRoundGothicW03-Book') format('svg');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 // Our variables
-$base-font-family:  'AllRoundGothicW03-Book';
+$base-font-family:  'Quicksand', sans-serif;
 $base-font-size:    18px;
 $base-line-height:  1.5;
 $link-hover:        #1975e5;
