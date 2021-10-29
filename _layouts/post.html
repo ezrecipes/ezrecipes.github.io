@@ -3,10 +3,9 @@ layout: default
 ---
 
 <article class="color3 module">
-  <a href="{{ page.url }}"><h1>{{ page.title }}</h1></a>
+  <a href="{{ page.url }}"><h1>{{ page.title }}</h1><img src="/assets/images/recipe/{{ page.title | downcase | split: " " | join: "-" }}.png" height="75"></a>
   <hr>
   <p>Prep time &ndash; {{ page.prep }} minutes<br>Cook time &ndash; {{ page.cook }} minutes</p>
-  <img src="/assets/images/recipe/{{ page.title | downcase | split: " " | join: "-" }}.png" height="250">
 </article>
 <article class="color3 module">
   {{ content }}
