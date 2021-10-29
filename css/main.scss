@@ -3,17 +3,8 @@
 ---
 @charset "utf-8";
 
-@font-face {
-  font-family: 'AllRoundGothicW03-Book';
-  src: url('AllRoundGothicW03-Book.eot'); /* IE9 Compat Modes */
-  src: url('AllRoundGothicW03-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('AllRoundGothicW03-Book.woff') format('woff'), /* Modern Browsers */
-       url('AllRoundGothicW03-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('AllRoundGothicW03-Book.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
 // Our variables
-$base-font-family:  'AllRoundGothicW03-Book';
+$base-font-family:  'AllRoundGothicW03-Book', sans-serif;
 $base-font-size:    18px;
 $base-line-height:  1.5;
 $link-hover:        #1975e5;
