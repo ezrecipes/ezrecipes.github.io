@@ -13,3 +13,6 @@ disqus-id:    "ezrecipes" #leave blank if you dont want comments.
 markdown:     kramdown
 sass:
     style: :compressed
+
+plugins:
+  - jekyll-sitemap
