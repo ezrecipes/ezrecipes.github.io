@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Roasted tomato, basil & Parmesan Quiche
+title:  Roasted tomato and Parmesan Quiche
 date:   2021-10-30
 prep:   40
 cook:   40
