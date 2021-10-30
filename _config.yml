@@ -3,10 +3,10 @@ title:        "ezrecipes"
 description:  "A food blog with easy recipes."
 baseurl:      "" # the subpath of your site, e.g. /blog/
 url:          "https://ezrecipes.github.io/" # the base hostname & protocol for your site
-permalink:    /:year/:title
+permalink:    /:title
 github:       "ezrecipes"
 twitter:      ""
-email:        ""
+email:        "ezrecipes@outlook.com"
 disqus-id:    "ezrecipes" #leave blank if you dont want comments.
 
 # Build settings
