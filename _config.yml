@@ -1,14 +1,15 @@
 # Site settings
-title:        "ezrecipes"
-description:  "A food blog with easy recipes."
-baseurl:      "" # the subpath of your site, e.g. /blog/
-url:          "https://ezrecipes.github.io/" # the base hostname & protocol for your site
-permalink:    /:year/:title
-github:       "ezrecipes"
-twitter:      ""
-email:        "ezrecipes@outlook.com"
-disqus-id:    "ezrecipes" #leave blank if you dont want comments.
-featured:     "/2021/dalgona-candy" # what is shown at the top of the page
+title:         "ezrecipes"
+description:   "A food blog with easy recipes."
+baseurl:       "" # the subpath of your site, e.g. /blog/
+url:           "https://ezrecipes.github.io/" # the base hostname & protocol for your site
+permalink:     /:year/:title
+github:         "ezrecipes"
+twitter:       ""
+email:         "ezrecipes@outlook.com"
+disqus-id:     "ezrecipes" #leave blank if you dont want comments.
+featured:      "/2021/dalgona-candy" # what is shown at the top of the page
+featuredTitle: "Dalgona Candy"
 
 # Build settings
 markdown:     kramdown
