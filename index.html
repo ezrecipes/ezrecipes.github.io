@@ -9,6 +9,9 @@ layout: default
   <h2>
     <a href="{{ site.featured }}">{{ site.featuredTitle }}</a>
   </h2>
+  <p>
+    {{ site.featuredPrep }} minutes prep time<br>{{ site.featuredCook }} minutes cook time
+  </p>
 </article>
 <div class="module color3">
   <h2>Recently added</h2>
@@ -20,7 +23,7 @@ layout: default
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
     <p>
-      {{ post.prep }} minutes prep time <br> {{ post.cook }} minutes cook time
+      {{ post.prep }} minutes prep time<br>{{ post.cook }} minutes cook time
     </p>
   </article>
 {% endfor %}
