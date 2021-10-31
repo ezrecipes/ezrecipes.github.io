@@ -5,7 +5,10 @@ layout: default
   <h2>Featured</h2>
 </div>
 <article class="module color3">
-  <img src="/assets/images/recipe/{{ site.featured | split: "/" | last }}.png"
+  <img src="/assets/images/recipe/{{ site.featured | split: "/" | last }}.png" height="150" style="float:right;border-radius:1em;">
+  <h2>
+    <a href="{{ site.featured }}">{{ site.featuredTitle }}</a>
+  </h2>
 </article>
 <div class="module color3">
   <h2>Recently added</h2>
