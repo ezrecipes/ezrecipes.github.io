@@ -2,7 +2,13 @@
 layout: default
 ---
 <div class="module color3">
-  <h2>Recently added recipes</h2>
+  <h2>Featured</h2>
+</div>
+<article class="module color3">
+  <img src="/assets/images/recipe/{{ site.featured | split: "/" | last }}.png"
+</article>
+<div class="module color3">
+  <h2>Recently added</h2>
 </div>
 {% for post in site.posts limit:3 %}
   <article class="module color3">
@@ -13,7 +19,7 @@ layout: default
     <p>
       {{ post.prep }} minutes prep time <br> {{ post.cook }} minutes cook time
     </p>
-</article>
+  </article>
 {% endfor %}
 
 <section class="module color3">
