@@ -10,6 +10,7 @@ email:         "ezrecipes@outlook.com"
 disqus-id:     "ezrecipes" #leave blank if you dont want comments.
 
 # Featured
+featuredShow:  "true"
 featured:      "/2021/dalgona-candy" # what is shown at the top of the page
 featuredTitle: "Dalgona Candy"
 featuredPrep:  "2"
