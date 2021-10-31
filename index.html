@@ -4,6 +4,7 @@ layout: default
 <div class="module color3">
   <h2>Featured</h2>
 </div>
+{% if featuredShow %}
 <article class="module color3">
   <img src="/assets/images/recipe/{{ site.featured | split: "/" | last }}.png" height="150" style="float:right;border-radius:1em;">
   <h2>
@@ -13,6 +14,7 @@ layout: default
     {{ site.featuredPrep }} minutes prep time<br>{{ site.featuredCook }} minutes cook time
   </p>
 </article>
+{% endif %}
 <div class="module color3">
   <h2>Recently added</h2>
 </div>
