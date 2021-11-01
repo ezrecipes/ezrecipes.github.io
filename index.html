@@ -1,27 +1,21 @@
 ---
 layout: default
 ---
+{{ site.includes }}
+{% if site.featuredShow %}
 <div class="module color3">
   <h2>Featured</h2>
 </div>
 <article class="module color3">
-  <img src="/assets/images/recipe/juicy-thanksgiving-turkey.png" height="150" style="float:right;border-radius:1em;">
+  <img src="/assets/images/recipe/{{ site.featured | split: "/" | last }}.png" height="150" style="float:right;border-radius:1em;">
   <h2>
-    <a href="/2021/juicy-thanksgiving-turkey">Juicy Thanksgiving Turkey</a>
+    <a href="{{ site.featured }}">{{ site.featuredTitle }}</a>
   </h2>
   <p>
-    20 minutes prep time<br>240 minutes cook time
+    {{ site.featuredPrep }} minutes prep time<br>{{ site.featuredCook }} minutes cook time
   </p>
 </article>
-<article class="module color3">
-  <img src="/assets/images/recipe/dalgona-candy.png" height="150" style="float:right;border-radius:1em;">
-  <h2>
-    <a href="/2021/dalgona-candy">Dalgona Candy</a>
-  </h2>
-  <p>
-    2 minutes prep time<br>3 minutes cook time
-  </p>
-</article>
+{% endif %}
 <div class="module color3">
   <h2>Recently added</h2>
 </div>
@@ -36,7 +30,6 @@ layout: default
     </p>
   </article>
 {% endfor %}
-
 <section class="module color3">
   <a href="{{ 'archives' | prepend: site.baseurl }}">See more recipes</a>
 </section>
