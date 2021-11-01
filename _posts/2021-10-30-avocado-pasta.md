@@ -9,7 +9,7 @@ cook:   10
 
 ## Ingredients
 
-- 12 ounces (1 and ½  cups) of fusilli pasta
+- 12 ounces (1 and ½ cups) of fusilli pasta
 - 1 fully ripened avocado
 -  cup of olive oil
 - 3 tbsp of chopped basil
@@ -24,5 +24,5 @@ cook:   10
 2. Blend the avocado, olive oil, basil, cilantro, garlic, and lemon juice in a food processor or blender until smooth; season with black pepper and salt for extra taste.
 3. Transfer the pasta into a large bowl. Pour the avocado sauce over the pasta and toss to coat.
 
-## Nutrion Facts
+## Nutrition Facts
 388 calories per serving; makes 4 servings.
