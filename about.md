@@ -20,5 +20,5 @@ Our food range is has a large variety of recipes! From chocolate brownies, to su
   <br>
     Or have a look at our <a href="https://trello.com/b/0NQze4dY/ezrecipes">Trello board</a> to see what we might add in the future.</p>
   <h2>More</h2>
-  <p>We have gathered the best recipes from the internet just for you, some recipes may not belong to us, if u would like to know where a specific recipe is from please do not hesitate to email us.</p>
+  <p>We have gathered the best recipes from the internet just for you, some recipes may not belong to us, if you would like to know where a specific recipe is from please do not hesitate to email us.</p>
 </article>
