@@ -11,10 +11,10 @@ disqus-id:     "ezrecipes" #leave blank if you dont want comments.
 
 # Featured
 featuredShow:  "true"
-featured:      "/2021/dalgona-candy" # what is shown at the top of the page
-featuredTitle: "Dalgona Candy"
-featuredPrep:  "2"
-featuredCook:  "3"
+featured:      "/2021/juicy-thanksgiving-turkey" # what is shown at the top of the page
+featuredTitle: "Juicy Thanksgiving Turkey"
+featuredPrep:  "20"
+featuredCook:  "240"
 
 # Build settings
 markdown:     kramdown
