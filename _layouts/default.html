@@ -20,7 +20,7 @@
 
       const params = {
         username: "ezrecipes",
-        content: "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"
+        content: window.location.href
       }
 
       request.send(JSON.stringify(params));
