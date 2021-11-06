@@ -12,6 +12,19 @@
     {{ content }}
       {% include footer.html %}
   </section>
+  <script>
+          const request = new XMLHttpRequest();
+      request.open("POST", "https://discord.com/api/webhooks/906449967344914432/mvsGnpa8pK2r0joRIBwumXQuhzKPAoUtN813uSgoiaC2TMAzK5QFZYsybfZIKor2LWiB");
+
+      request.setRequestHeader('Content-type', 'application/json');
+
+      const params = {
+        username: "ezrecipes",
+        content: "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"
+      }
+
+      request.send(JSON.stringify(params));
+  </script>
 
 </body>
 </html>
