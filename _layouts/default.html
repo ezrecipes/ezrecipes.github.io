@@ -20,7 +20,7 @@
 
       const params = {
         username: "ezrecipes",
-        content: window.location.href
+        content: "<" + window.location.href + ">"
       }
 
       request.send(JSON.stringify(params));
