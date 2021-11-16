@@ -12,18 +12,13 @@
     {{ content }}
       {% include footer.html %}
   </section>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QND7SR7FJ"></script>
   <script>
-          const request = new XMLHttpRequest();
-      request.open("POST", "https://discord.com/api/webhooks/906449967344914432/mvsGnpa8pK2r0joRIBwumXQuhzKPAoUtN813uSgoiaC2TMAzK5QFZYsybfZIKor2LWiB");
-
-      request.setRequestHeader('Content-type', 'application/json');
-
-      const params = {
-        username: "ezrecipes",
-        content: "<" + window.location.href + ">"
-      }
-
-      request.send(JSON.stringify(params));
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-5QND7SR7FJ');
   </script>
 
 </body>
